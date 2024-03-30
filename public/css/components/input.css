@@ -1,0 +1,23 @@
+input {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    outline: none;
+    border: 1px solid var(--light-gray);
+    color: var(--black);
+}
+
+::-webkit-input-placeholder {
+    color: var(--light-gray);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: var(--light-gray);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: var(--light-gray);
+}
+
+:-ms-input-placeholder {
+    color: var(--light-gray);
+}

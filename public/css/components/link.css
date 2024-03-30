@@ -1,0 +1,10 @@
+a {
+    font-size: 0.875rem;
+    color: var(--gray);
+    transition: 0.2s;
+}
+
+a:hover {
+    color: var(--black);
+    text-decoration: underline;
+}
