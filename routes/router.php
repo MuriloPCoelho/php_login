@@ -4,6 +4,8 @@
 	$request = $_SERVER['REQUEST_URI'];
 //  var_dump($request);
 
+
+
 // Remove a barra inicial e divide a URL em segmentos
 	$segments = explode('/', ltrim($request, '/'));
 //	var_dump($segments);

@@ -1,8 +1,3 @@
-<?php
-$page_title = "Home";
-include_once "../layouts/layout.php";
-?>
-
 <h1 class="text-center">Cadastre-se</h1>
 <form class="vertical-form" method="post" action="Register/index">
     <div class="form-group">
@@ -25,4 +20,4 @@ include_once "../layouts/layout.php";
     <a href="../login/">Já possui um cadastro? <b>Clique aqui</b></a>
 </form>
 
-<?php include_once "../layouts/layout_end.php"; ?>
+

@@ -1,7 +1,3 @@
-<?php
-	$page_title = "Login";
-	include_once "../layouts/layout.php";
-?>
 <h1 class="text-center">Entrar</h1>
 <form class="vertical-form">
 	<div class="form-group">
@@ -16,4 +12,3 @@
 	<a href="../register/">Novo por aqui? <b>Clique aqui</b></a>
 </form>
 
-<?php include_once "../layouts/layout_end.php"; ?>
