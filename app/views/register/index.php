@@ -17,7 +17,7 @@
         <input id="passwordConfirmation" type="password" name="passwordConfirmation" placeholder="Confirme a Senha">
     </div>
     <button class="primary-btn" type="submit">Enviar</button>
-    <a href="../login/">Já possui um cadastro? <b>Clique aqui</b></a>
+    <a href="Login/index">Já possui um cadastro? <b>Clique aqui</b></a>
 </form>
 
 

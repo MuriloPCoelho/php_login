@@ -14,7 +14,6 @@
 		public function model(Model $model, $method)
 		{
 			$model->$method();
-
 			return $model;
 		}
 	}
