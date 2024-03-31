@@ -1,4 +1,6 @@
 <?php
+	namespace database;
+	use mysqli;
 
 	class Database {
 		private string $host;
@@ -15,16 +17,23 @@
 				$this->dbpassword = $env['DB_PASSWORD'],
 				$this->dbname = $env['DB_NAME']
 			);
-
-			$this->checkConnection();
 		}
 
-		private function checkConnection() {
+		private function checkConnection(): bool
+		{
 			if ($this->connection->connect_errno) {
-				echo "Failed to connect to MySQL: " . $this->connection->connect_error;
-				exit();
+				return false;
 			} else {
-				echo "Connected to MySQL";
+				return true;
+			}
+		}
+
+		public function query(string $sql)
+		{
+			if ($this->checkConnection()) {
+				return $this->connection->query($sql);
+			} else {
+				return false;
 			}
 		}
 	}

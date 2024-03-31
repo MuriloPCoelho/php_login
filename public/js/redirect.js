@@ -1,1 +1,1 @@
-window.location.href = "../../php_login/app/views/register/";
+window.location.href = "../../php_login/app/controllers/Register/index/";
