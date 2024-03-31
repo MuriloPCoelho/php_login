@@ -10,14 +10,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--off-white);
+    background-color: var(--primary);
     font-family: "Inter", sans-serif;
 }
 
 main {
     padding: 2rem;
-    border-radius: 1.5rem;
-    background-color: var(--white);
+    border-radius: 1.25rem;
+    background-color: var(--secondary);
     width: 100%;
     max-width: 360px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@ h1 {
     text-align: center;
     font-weight: 600;
     font-size: 1.5rem;
-    color: var(--black);
+    color: var(--white);
 }
 
 b {

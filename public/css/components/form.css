@@ -14,6 +14,10 @@
     width: 100%;
 }
 
+.vertical-form>button[type="submit"] {
+    margin-top: 1rem;
+}
+
 .form-group input {
     width: auto;
 }
@@ -21,5 +25,6 @@
 .form-group label {
     font-size: 0.875rem;
     font-weight: 400;
-    color: var(--gray);
+    color: var(--blue-gray);
 }
+

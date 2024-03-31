@@ -5,6 +5,6 @@ a {
 }
 
 a:hover {
-    color: var(--black);
+    color: var(--light-gray);
     text-decoration: underline;
 }
